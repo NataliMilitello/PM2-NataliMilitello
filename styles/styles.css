@@ -64,8 +64,10 @@
   align-content: space-around;
   gap: 2em;
 }
-.card {
-  width: 20%;
+div.card {
+  width: 30%;
+  min-width: 350px;
+  max-width: 96vw;
   background-color: #f0ebe3;
   border-radius: 10px;
   display: flex;
@@ -77,7 +79,7 @@
   transition: transform 0.3s; /* Agrega transición suave a la transformación */
 }
 .card:hover{
-  transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se pasa el cursor sobre la carta */
+  transform: scale(1.02); /* Aumenta el tamaño al 110% cuando se pasa el cursor sobre la carta */
 }
 
 .titleCard {
